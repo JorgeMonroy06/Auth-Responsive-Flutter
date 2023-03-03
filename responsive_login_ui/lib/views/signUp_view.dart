@@ -7,14 +7,6 @@ import 'package:lottie/lottie.dart';
 import '../views/login_view.dart';
 import '../constants.dart';
 import '../controller/simple_ui_controller.dart';
-
-class SignUpView extends StatefulWidget {
-  const SignUpView({Key? key}) : super(key: key);
-
-  @override
-  State<SignUpView> createState() => _SignUpViewState();
-}
-
 class _SignUpViewState extends State<SignUpView> {
   TextEditingController nameController = TextEditingController();
   TextEditingController emailController = TextEditingController();
